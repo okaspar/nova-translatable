@@ -15,13 +15,13 @@ And in the edit view like this:
 You can require this package using composer:
 
 ```
-composer require mrmonat/nova-translatable
+composer require okaspar/nova-translatable
 ```
 
 You can add the field follows:
 
 ```
-use MrMonat\Translatable\Translatable;
+use okaspar\Translatable\Translatable;
 
 Translatable::make('Description'),
 ```

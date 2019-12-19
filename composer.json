@@ -1,6 +1,6 @@
 {
-    "name": "mrmonat/nova-translatable",
-    "description": "A Laravel Nova field for spatie/laravel-translatable.",
+    "name": "okaspar/nova-translatable",
+    "description": "A Laravel Nova field for spatie/laravel-translatable forked from mrmonat/nova-translatable to enable RTL support",
     "keywords": [
         "laravel",
         "nova",
@@ -13,13 +13,13 @@
     },
     "autoload": {
         "psr-4": {
-            "MrMonat\\Translatable\\": "src/"
+            "okaspar\\Translatable\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "MrMonat\\Translatable\\FieldServiceProvider"
+                "okaspar\\Translatable\\FieldServiceProvider"
             ]
         }
     },
